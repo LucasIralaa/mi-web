@@ -1,0 +1,226 @@
+/* Fuentes */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+/* Reseteo */
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.text-titulo {
+  color: rgba(var(--bs-danger-rgb));
+  font-weight: 800;
+}
+
+.logoPagina {
+  width: 150px;
+  height: 90px;
+}
+
+header {
+  background-color: #dc3546e3;
+}
+
+h1 {
+  text-align: center;
+  font-size: 11.6px;
+  color: white;
+
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  margin-bottom: 0;
+}
+
+.pie {
+  color: rgb(255, 255, 255);
+  padding-left: 3px;
+}
+
+img {
+  height: 750px;
+}
+
+.navbar a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.carousel-item {
+  min-width: 400px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+.carousel-inner::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.services {
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+
+.product {
+  padding-top: 80px;
+}
+
+.bg-car1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/home/ropa.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-car2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/home/calzado.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-car3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/home/accesorios.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-icons i {
+  font-size: 40px;
+}
+
+.box-icons h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.card img {
+  width: 350px;
+  height: 350px;
+}
+
+.banner {
+  padding: 50px 0;
+  margin-bottom: 80px;
+}
+
+.banner h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.banner img {
+  width: 500px;
+}
+
+@media (max-width: 767px) {
+  .carousel-item {
+    min-height: 500px;
+  }
+
+  .carousel-item img {
+    height: 500px;
+  }
+
+  .carousel-caption {
+    bottom: 30px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .services {
+    padding: 30px 0;
+  }
+
+  .product {
+    padding: 30px 0 0 0;
+  }
+
+  .banner {
+    margin-bottom: 30px;
+  }
+}
+
+#formulario {
+  padding-top: 3rem;
+}
+
+.section-icons p {
+  font-size: 12px;
+}
+
+footer {
+  padding: 4px;
+}
+
+footer p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.boton {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.zapasDestacadas {
+  display: flex;
+  justify-content: center;
+}
+
+.medio {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.productos1 {
+  font-weight: 800;
+}
+
+.button span:hover {
+  color: var(--primary-color);
+}
+
+.iconos {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
